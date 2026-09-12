@@ -1,0 +1,97 @@
+
+#productos {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: 300px;
+}
+
+.card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+/* css extra para el carrito */
+
+#carrito {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+#total {
+    margin-top: 20px;
+}
+
+body {
+    background-color: #f5f5f5;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: white;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+#carrito .card {
+    background-color: white;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+#carrito button {
+    background-color: #ff6347;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#total {
+    color: #ff6347;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+
+/* css extra para el home */
+
+#categorias button {
+    background-color: white;
+    border: 1px solid #ddd;
+    padding: 8px 12px;
+    margin-right: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#buscador {
+    padding: 8px 10px;
+    width: 250px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#productos .card {
+    background-color: white;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+#productos .card button {
+    background-color: #ff6347;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+}

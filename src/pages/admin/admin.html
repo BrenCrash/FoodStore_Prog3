@@ -1,0 +1,134 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Panel de Administración</title>
+</head>
+
+<body>
+    <header>
+        <h1>Panel de Administración</h1>
+       <a href="../client/home/home.html">Volver a la Tienda</a>
+    </header>
+
+    <main>
+        <h2>Gestion de Productos</h2>
+        <table border="1">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Imagen</th>
+                    <th>Nombre</th>
+                    <th>Categoría</th>
+                    <th>Precio</th>
+                    <th>Stock</th>
+                    <th>Acciones</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <img src="/img/hamburguesa.jpg" alt="Hamburguesa Triple" width="80">
+                    <td>Hamburguesa Triple</td>
+                    <td>Hamburguesa</td>
+                    <td>$25.000</td>
+                    <td>12</td>
+                    <td>
+                        <a href="#">Editar</a> |
+                        <a href="#">Eliminar</a>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>2</td>
+                    <img src="/img/pizza.jpg" alt="Pizza Muzzarella" width="80">
+                    <td>Pizza Muzzarella</td>
+                    <td>Pizzas</td>
+                    <td>$18.000</td>
+                    <td>5</td>
+
+                    <td>
+                      <a href="#">Editar</a> |
+                      <a href="#">Eliminar</a>
+                    </td>
+                
+        
+                </tr>
+
+                <tr>
+                    <td>3</td>
+                    <img src="/img/empanadas.jpg" alt="Empanadas de Carne" width="80">
+                    <td>Empanadas de Carne</td>
+                    <td>Empanadas</td>
+                    <td>$7.000</td>
+                    <td>10</td>
+                    <td>
+                       <a href="#">Editar</a> |
+                       <a href="#">Eliminar</a>
+                    </td>
+        
+                </tr>
+
+
+
+
+
+
+            </tbody>
+
+        </table>
+        <h2>Agregar Producto Rápido</h2>
+
+<form>
+
+    <label for="nombre">Nombre del Producto:</label>
+    <input type="text" id="nombre" name="nombre">
+
+    <br><br>
+
+    <label for="precio">Precio:</label>
+    <input type="number" id="precio" name="precio">
+
+    <br><br>
+
+    <label for="stock">Stock Inicial:</label>
+    <input type="number" id="stock" name="stock">
+
+    <br><br>
+
+    <label for="categoria">Categoría:</label>
+    <select id="categoria" name="categoria">
+        <option value="">Seleccione una opción</option>
+        <option value="hamburguesas">Hamburguesas</option>
+        <option value="pizzas">Pizzas</option>
+        <option value="empanadas">Empanadas</option>
+        <option value="bebidas">Bebidas</option>
+    </select>
+
+    <br><br>
+
+    <label for="descripcion">Descripción:</label>
+    <textarea id="descripcion" name="descripcion"></textarea>
+
+    <br><br>
+
+    <button type="submit">Guardar Producto</button>
+
+</form>
+
+
+
+
+
+    </main>
+
+
+<script type="module" src="/src/main.ts"></script>
+
+</body>
+
+</html>
