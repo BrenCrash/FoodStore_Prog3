@@ -1,5 +1,15 @@
 # Food Store
 
+## Video explicativo
+
+Video de presentación y explicación del proyecto:
+
+https://www.youtube.com/watch?v=8ZfA7bvAJ4w
+
+
+
+
+
 Evaluación 1 – Programación III  
 Tecnicatura Universitaria en Programación
 
@@ -10,6 +20,17 @@ Para resolver esta evaluación se tomó como base ese proyecto previo, conservan
 El objetivo principal de esta etapa fue incorporar un catálogo más dinámico, búsqueda y filtrado de productos, además de un carrito de compras con persistencia utilizando localStorage.
 
 ---
+## Tecnologías utilizadas
+
+- HTML5
+- CSS3
+- JavaScript
+- TypeScript
+- Vite
+- localStorage
+- pnpm
+
+No se utilizaron frameworks.
 
 ## Funcionalidades implementadas
 
